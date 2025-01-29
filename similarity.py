@@ -77,7 +77,24 @@ def find_similar_cases(new_case, database, top_n=5):
     # Ordenar por menor distancia (más similar)
     similarities.sort(key=lambda x: x[1])
 
-    return similarities[:top_n]
+    k_values = similarities[:top_n]
+    threshold = calculate_dynamic_threshold(database)
+
+    # Decisión basada en umbral
+    if min(k_values) > threshold:
+        return "Clasificación manual requerida"
+    else:
+        return k_values
+    
+def calculate_dynamic_threshold(database):
+    """Calcula un umbral basado en el percentil 90 de las similitudes previas."""
+    similarity_scores = []
+
+    for i in range(len(database)):
+        for j in range(i + 1, len(database)):
+            similarity_scores.append(compare_cases(database[i], database[j]))
+
+    return float(np.percentile(similarity_scores, 90))  # Usa el percentil 90 como umbral
 
 # Cargar base de datos
 database = load_database("/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/train/spore_features.json")
