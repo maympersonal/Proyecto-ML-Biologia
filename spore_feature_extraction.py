@@ -39,6 +39,10 @@ def extract_features(image):
     min_gray = float(np.min(gray))
     max_gray = float(np.max(gray))
 
+    # Características de forma (Momentos de Hu)
+    moments = cv2.moments(gray)
+    hu_moments = list(cv2.HuMoments(moments).flatten())
+
     # Características de color (media y desviación estándar en RGB)
     mean_rgb = list(np.mean(image, axis=(0, 1)).tolist())
     std_rgb = list(np.std(image, axis=(0, 1)).tolist())
@@ -79,7 +83,8 @@ def extract_features(image):
             "mean_gray": mean_gray,
             "std_gray": std_gray,
             "min_gray": min_gray,
-            "max_gray": max_gray
+            "max_gray": max_gray,
+            "hu_moments": hu_moments
         }
     }
 
