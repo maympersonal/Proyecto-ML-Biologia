@@ -152,8 +152,6 @@ def process_images(image_folder, label_folder, output_json):
     with open(output_json, "w") as json_file:
         json.dump(all_features, json_file, indent=4)
 
-    print(f"Características guardadas en {output_json}")
-
 # Ejemplo de uso
 image_folder = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/train/images/"
 label_folder = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/train/labels/"
