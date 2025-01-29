@@ -1,0 +1,30 @@
+# 10/10 iterations complete ✅ (21705.50s)
+# Results saved to runs/detect/tune_faster
+# Best fitness=0.36799 observed at iteration 25
+# Best fitness metrics are None
+# Best fitness model is None
+# Best fitness hyperparameters are printed below.
+
+lr0: 0.00915
+lrf: 0.01058
+momentum: 0.93191
+weight_decay: 0.0005
+warmup_epochs: 3.02887
+warmup_momentum: 0.77216
+box: 7.67483
+cls: 0.51668
+dfl: 1.45626
+hsv_h: 0.0149
+hsv_s: 0.67538
+hsv_v: 0.40234
+degrees: 0.0
+translate: 0.12156
+scale: 0.52179
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5076
+bgr: 0.0
+mosaic: 0.92179
+mixup: 0.0
+copy_paste: 0.0
