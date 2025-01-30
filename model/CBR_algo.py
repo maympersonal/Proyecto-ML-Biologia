@@ -88,7 +88,7 @@ def find_similar_cases(new_case, database, top_n=5):
         return "Clasificación manual requerida"
     else:
         values = [tupla[0] for tupla in k_values]
-        most_common = Counter(values).most_common()
+        most_common = Counter(values).most_common(1)
         return most_common
     
 def calculate_dynamic_threshold(database):
@@ -100,6 +100,7 @@ def calculate_dynamic_threshold(database):
             similarity_scores.append(compare_cases(database[i], database[j]))
 
     return float(np.percentile(similarity_scores, 90))  # Usa el percentil 90 como umbral
+
 def load_labels(label_path, image_shape):
     """Carga los bounding boxes desde un archivo de etiquetas YOLO."""
     h, w = image_shape[:2]
@@ -122,6 +123,7 @@ def load_labels(label_path, image_shape):
         bboxes.append((class_id, x_min, y_min, box_width, box_height))
 
     return bboxes
+
 def extract_features(image):
     """Extrae características de color, textura y estadísticas de una imagen."""
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

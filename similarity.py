@@ -91,7 +91,8 @@ def find_similar_cases(new_case, database, top_n=5):
     if min(k_values)[1] > threshold:
         return "Clasificación manual requerida"
     else:
-        most_common = Counter(k_values).most_common(1)
+        values = [tupla[0] for tupla in k_values]
+        most_common = Counter(values).most_common(1)
         return most_common
     
 def calculate_dynamic_threshold(database):
@@ -162,8 +163,9 @@ for file_name in tqdm(common_files):
 #     # Mostrar resultados
     i = 0
     for res in resultados:
-        # print(f"Tipo detectado: {res[0][0][0]} Tipo real: {class_names[bboxes[i][0]]} ")
-        if not res[0][0][0] == class_names[bboxes[i][0]]:
+        
+        if not res[0][0] == class_names[bboxes[i][0]]:
             print(res)
+            print(f"Tipo detectado: {res[0][0]} Tipo real: {class_names[bboxes[i][0]]} ")
         # print(f"Detectado satisfactoriamente: {res[0][0][0] == class_names[bboxes[i][0]]}")
         i += 1

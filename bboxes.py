@@ -104,22 +104,24 @@ def draw_and_compare_bounding_boxes(image_path, bounding_boxes1, bounding_boxes2
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+def main():
+    valid_image_folder = "../Imágenes/dataset/valid/images"
+    valid_image_files = {os.path.splitext(f)[0]: os.path.join(valid_image_folder, f) for f in os.listdir(valid_image_folder) if f.endswith(('.jpg', '.png', '.jpeg'))}
 
-# valid_image_folder = "../Imágenes/dataset/valid/images"
-# valid_image_files = {os.path.splitext(f)[0]: os.path.join(valid_image_folder, f) for f in os.listdir(valid_image_folder) if f.endswith(('.jpg', '.png', '.jpeg'))}
+    valid_label_folder = "../Imágenes/dataset/valid/labels"
+    valid_label_files = {os.path.splitext(f)[0]: os.path.join(valid_label_folder, f) for f in os.listdir(valid_label_folder) if f.endswith('.txt')}
 
-# valid_label_folder = "../Imágenes/dataset/valid/labels"
-# valid_label_files = {os.path.splitext(f)[0]: os.path.join(valid_label_folder, f) for f in os.listdir(valid_label_folder) if f.endswith('.txt')}
+    common_files = valid_image_files.keys() & valid_label_files.keys()
 
-# common_files = valid_image_files.keys() & valid_label_files.keys()
+    for file_name in tqdm(common_files):
+        image_path = valid_image_files[file_name]
+        label_path = valid_label_files[file_name]
 
-# for file_name in tqdm(common_files):
-#     image_path = valid_image_files[file_name]
-#     label_path = valid_label_files[file_name]
-
-#     image = cv2.imread(image_path)
-#     bboxes = load_labels(label_path, image.shape)
+        image = cv2.imread(image_path)
+        bboxes = load_labels(label_path, image.shape)
 
 
-#     # draw_bounding_box(image_path, segment_image(image))
-#     draw_and_compare_bounding_boxes(image_path, segment_image(image), bboxes)
+        # draw_bounding_box(image_path, segment_image(image))
+        draw_and_compare_bounding_boxes(image_path, segment_image(image), bboxes)
+
+# main()
