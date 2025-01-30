@@ -89,7 +89,7 @@ def process_images_and_save(image_folder, output_path):
     print(all_features)
     save_features_to_json_multiple(all_features, output_path)
 
-image_folder = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/train/images/"
-output_path = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/train/features.json"
+image_folder = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/Imágenes/dataset/train/images/"
+output_path = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/features.json"
 process_images_and_save(image_folder, output_path)
 

@@ -201,8 +201,12 @@ def process_images(image_folder, label_folder, output_json):
     common_files = image_files.keys() & label_files.keys()
 
     # Cargar el archivo YAML
-    with open(".\\Imagenes\\dataset\\data.yaml", "r") as file:
-        data = yaml.safe_load(file)  # Carga el contenido del YAML
+    try:
+        with open(".\\Imagenes\\dataset\\data.yaml", "r") as file:
+            data = yaml.safe_load(file)  # Carga el contenido del YAML
+    except:
+        with open("../Imagenes/dataset/data.yaml", "r") as file:
+            data = yaml.safe_load(file)  # Carga el contenido del YAML
 
     # Extraer la lista de nombres de las clases
     class_names = data.get("names", [])  # Si "names" no existe, devuelve una lista vacía
@@ -243,16 +247,22 @@ def process_images(image_folder, label_folder, output_json):
     # Guardar en JSON
     with open(output_json, "w") as json_file:
         json.dump(all_features, json_file, indent=4)
+
 def load_database(json_path):
     """Carga la base de datos de esporas desde un JSON."""
     try:
-      with open(json_path, "r") as file:
-        return json.load(file)
+        with open(json_path, "r") as file:
+            return json.load(file)
     except:
-      image_folder = ".\\Imágenes\\dataset\\train\\images"
-      label_folder = ".\\Imágenes\\dataset\\train\\labels"
-      output_json = ".\\spore_features.json"
-      process_images(image_folder, label_folder, output_json)
+        try:
+            image_folder = ".\\Imágenes\\dataset\\train\\images"
+            label_folder = ".\\Imágenes\\dataset\\train\\labels"
+            output_json = ".\\spore_features.json"
+        except:
+            image_folder = "../Imágenes/dataset/train/images"
+            label_folder = "../Imágenes/dataset/train/labels"
+            output_json = "../spore_features.json"
+        process_images(image_folder, label_folder, output_json)
       
 def segment_image(image):
     """ Segmenta la imagen para detectar esporas. """

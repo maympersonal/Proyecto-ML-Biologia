@@ -1,11 +1,22 @@
 import json
+import os
+from tqdm import tqdm
+import cv2
+import yaml
 import numpy as np
 from scipy.spatial.distance import euclidean, cosine
+from typing import Counter
+from bboxes import load_labels
+from spore_feature_extraction import extract_features
 
 def load_database(json_path):
     """Carga la base de datos de esporas desde un JSON."""
     with open(json_path, "r") as file:
         return json.load(file)
+
+def chi_square_distance(hist1, hist2):
+    """Calcula la distancia Chi-cuadrado entre dos histogramas."""
+    return 0.5 * np.sum(((hist1 - hist2) ** 2) / (hist1 + hist2 + 1e-7))
 
 def compare_cases(case1, case2):
     """Calcula la similitud entre dos esporas usando varias métricas."""
@@ -62,29 +73,26 @@ def compare_cases(case1, case2):
 
     return similarity_score
 
-def chi_square_distance(hist1, hist2):
-    """Calcula la distancia Chi-cuadrado entre dos histogramas."""
-    return 0.5 * np.sum(((hist1 - hist2) ** 2) / (hist1 + hist2 + 1e-7))
-
 def find_similar_cases(new_case, database, top_n=5):
     """Encuentra los casos más similares en la base de datos."""
     similarities = []
 
     for espora_id, case in database.items():
         score = compare_cases(new_case, case)
-        similarities.append((espora_id, score))
+        similarities.append((database[espora_id]["bounding_box"]["class"], score))
 
     # Ordenar por menor distancia (más similar)
     similarities.sort(key=lambda x: x[1])
 
     k_values = similarities[:top_n]
-    threshold = calculate_dynamic_threshold(database)
+    threshold = 70
 
     # Decisión basada en umbral
-    if min(k_values) > threshold:
+    if min(k_values)[1] > threshold:
         return "Clasificación manual requerida"
     else:
-        return k_values
+        most_common = Counter(k_values).most_common(1)
+        return most_common
     
 def calculate_dynamic_threshold(database):
     """Calcula un umbral basado en el percentil 90 de las similitudes previas."""
@@ -96,5 +104,66 @@ def calculate_dynamic_threshold(database):
 
     return float(np.percentile(similarity_scores, 90))  # Usa el percentil 90 como umbral
 
-# Cargar base de datos
-database = load_database("/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/train/spore_features.json")
+def predict(image, case_database, bounding_boxes):
+    """ Predice el tipo de espora en una imagen usando CBR y aprendizaje automático. """
+    
+    results = []
+    best_case = []
+
+    for box in bounding_boxes:
+        # 2. Extraer características de la espora detectada
+        c, x, y, w, h = box
+        roi = image[y:y+h, x:x+w]
+        features = extract_features(roi)
+        all_features = {
+                "bounding_box": {
+                    "class": '',
+                    "x_min": x,
+                    "y_min": y,
+                    "width": w,
+                    "height": h
+                },
+                "features": features
+            }
+
+        # 3. Buscar el caso más similar en la base de datos
+        best_case.append(find_similar_cases(all_features, case_database))
+
+      
+
+    return best_case
+
+case_database = load_database("../spore_features.json")
+
+valid_image_folder = "../Imágenes/dataset/valid/images"
+valid_image_files = {os.path.splitext(f)[0]: os.path.join(valid_image_folder, f) for f in os.listdir(valid_image_folder) if f.endswith(('.jpg', '.png', '.jpeg'))}
+
+valid_label_folder = "../Imágenes/dataset/valid/labels"
+valid_label_files = {os.path.splitext(f)[0]: os.path.join(valid_label_folder, f) for f in os.listdir(valid_label_folder) if f.endswith('.txt')}
+
+common_files = valid_image_files.keys() & valid_label_files.keys()
+
+# Cargar el archivo YAML
+with open("/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/Imágenes/dataset/data.yaml", "r") as file:
+    data = yaml.safe_load(file)  # Carga el contenido del YAML
+
+# Extraer la lista de nombres de las clases
+class_names = data.get("names", [])  # Si "names" no existe, devuelve una lista vacía
+
+for file_name in tqdm(common_files):
+    image_path = valid_image_files[file_name]
+    label_path = valid_label_files[file_name]
+
+    image = cv2.imread(image_path)
+    bboxes = load_labels(label_path, image.shape)
+
+    resultados = predict(image, case_database, bboxes)
+
+#     # Mostrar resultados
+    i = 0
+    for res in resultados:
+        # print(f"Tipo detectado: {res[0][0][0]} Tipo real: {class_names[bboxes[i][0]]} ")
+        if not res[0][0][0] == class_names[bboxes[i][0]]:
+            print(res)
+        # print(f"Detectado satisfactoriamente: {res[0][0][0] == class_names[bboxes[i][0]]}")
+        i += 1

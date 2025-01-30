@@ -109,7 +109,7 @@ def process_images(image_folder, label_folder, output_json):
     common_files = image_files.keys() & label_files.keys()
 
     # Cargar el archivo YAML
-    with open("/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/data.yaml", "r") as file:
+    with open("/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/Imágenes/dataset/data.yaml", "r") as file:
         data = yaml.safe_load(file)  # Carga el contenido del YAML
 
     # Extraer la lista de nombres de las clases
@@ -153,9 +153,9 @@ def process_images(image_folder, label_folder, output_json):
         json.dump(all_features, json_file, indent=4)
 
 # Ejemplo de uso
-image_folder = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/train/images/"
-label_folder = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/train/labels/"
-output_json = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/dataset-20250125T205521Z-001/dataset/train/spore_features.json"
+image_folder = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/Imágenes/dataset/train/images/"
+label_folder = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/Imágenes/dataset/train/labels/"
+output_json = "/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/spore_features.json"
 
-process_images(image_folder, label_folder, output_json)
+# process_images(image_folder, label_folder, output_json)
 
