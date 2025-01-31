@@ -73,7 +73,7 @@ def compare_cases(case1, case2):
 
     return similarity_score
 
-def find_similar_cases(new_case, database, top_n=5):
+def find_similar_cases(new_case, database, threshold=70, top_n=5):
     """Encuentra los casos más similares en la base de datos."""
     similarities = []
 
@@ -85,7 +85,6 @@ def find_similar_cases(new_case, database, top_n=5):
     similarities.sort(key=lambda x: x[1])
 
     k_values = similarities[:top_n]
-    threshold = 70
 
     # Decisión basada en umbral
     if min(k_values)[1] > threshold:
@@ -134,38 +133,38 @@ def predict(image, case_database, bounding_boxes):
 
     return best_case
 
-case_database = load_database("../spore_features.json")
+# case_database = load_database("../spore_features.json")
 
-valid_image_folder = "../Imágenes/dataset/valid/images"
-valid_image_files = {os.path.splitext(f)[0]: os.path.join(valid_image_folder, f) for f in os.listdir(valid_image_folder) if f.endswith(('.jpg', '.png', '.jpeg'))}
+# valid_image_folder = "../Imágenes/dataset/valid/images"
+# valid_image_files = {os.path.splitext(f)[0]: os.path.join(valid_image_folder, f) for f in os.listdir(valid_image_folder) if f.endswith(('.jpg', '.png', '.jpeg'))}
 
-valid_label_folder = "../Imágenes/dataset/valid/labels"
-valid_label_files = {os.path.splitext(f)[0]: os.path.join(valid_label_folder, f) for f in os.listdir(valid_label_folder) if f.endswith('.txt')}
+# valid_label_folder = "../Imágenes/dataset/valid/labels"
+# valid_label_files = {os.path.splitext(f)[0]: os.path.join(valid_label_folder, f) for f in os.listdir(valid_label_folder) if f.endswith('.txt')}
 
-common_files = valid_image_files.keys() & valid_label_files.keys()
+# common_files = valid_image_files.keys() & valid_label_files.keys()
 
-# Cargar el archivo YAML
-with open("/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/Imágenes/dataset/data.yaml", "r") as file:
-    data = yaml.safe_load(file)  # Carga el contenido del YAML
+# # Cargar el archivo YAML
+# with open("/media/daniman/Dani/UNI/4toaño/Machine Learning/Proyecto/Imágenes/dataset/data.yaml", "r") as file:
+#     data = yaml.safe_load(file)  # Carga el contenido del YAML
 
-# Extraer la lista de nombres de las clases
-class_names = data.get("names", [])  # Si "names" no existe, devuelve una lista vacía
+# # Extraer la lista de nombres de las clases
+# class_names = data.get("names", [])  # Si "names" no existe, devuelve una lista vacía
 
-for file_name in tqdm(common_files):
-    image_path = valid_image_files[file_name]
-    label_path = valid_label_files[file_name]
+# for file_name in tqdm(common_files):
+#     image_path = valid_image_files[file_name]
+#     label_path = valid_label_files[file_name]
 
-    image = cv2.imread(image_path)
-    bboxes = load_labels(label_path, image.shape)
+#     image = cv2.imread(image_path)
+#     bboxes = load_labels(label_path, image.shape)
 
-    resultados = predict(image, case_database, bboxes)
+#     resultados = predict(image, case_database, bboxes)
 
-#     # Mostrar resultados
-    i = 0
-    for res in resultados:
+# #     # Mostrar resultados
+#     i = 0
+#     for res in resultados:
         
-        if not res[0][0] == class_names[bboxes[i][0]]:
-            print(res)
-            print(f"Tipo detectado: {res[0][0]} Tipo real: {class_names[bboxes[i][0]]} ")
-        # print(f"Detectado satisfactoriamente: {res[0][0][0] == class_names[bboxes[i][0]]}")
-        i += 1
+#         if not res[0][0] == class_names[bboxes[i][0]]:
+#             print(res)
+#             print(f"Tipo detectado: {res[0][0]} Tipo real: {class_names[bboxes[i][0]]} ")
+#         # print(f"Detectado satisfactoriamente: {res[0][0][0] == class_names[bboxes[i][0]]}")
+#         i += 1
