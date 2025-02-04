@@ -1,7 +1,7 @@
 import os
 import cv2
 from tqdm import tqdm
-from CBR_algo import calculate_dynamic_thresholds, CBR, load_database
+from CBR import calculate_dynamic_thresholds, CBR, load_database
 
 try:
     image_folder = ".\\Imágenes\\dataset\\train\\images"
