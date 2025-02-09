@@ -1,7 +1,9 @@
 import os
 import cv2
 from tqdm import tqdm
-from CBR import calculate_dynamic_thresholds, CBR, load_database
+from CBR_model import  CBR_model
+from calculate_similarity import calculate_dynamic_thresholds
+from database_utils import load_database
 
 try:
     image_folder = ".\\Imágenes\\dataset\\train\\images"
@@ -12,7 +14,7 @@ except:
     label_folder = "../Imágenes/dataset/train/labels"
     output_json = "../spore_features.json"
 
-model = CBR(5)
+model = CBR_model(5)
 
 # Cargar base de datos
 try:
@@ -32,12 +34,13 @@ except:
     valid_image_files = {os.path.splitext(f)[0]: os.path.join(valid_image_folder, f) for f in os.listdir(valid_image_folder) if f.endswith(('.jpg', '.png', '.jpeg'))}
 
 threshold = calculate_dynamic_thresholds(database)
+#threshold = (7, 8)
 
 # # Ejecutar predicción
 for image in tqdm(valid_image_files.keys()):
-    print(valid_image_files[image])
-    image1 = cv2.imread(valid_image_files[image])
-    resultados = model.predict(image1, database, threshold)
+    image_name= valid_image_files[image]
+    image1 = cv2.imread(image_name)
+    resultados = model.predict(image1,image_name, database, threshold)
     
     #     # Mostrar resultados
     for res in resultados:
