@@ -7,7 +7,9 @@ def load_database(json_path):
         with open(json_path, "r") as file:
             return json.load(file)
     except:
-       return
+        return
+
+
 def load_labels(label_path, image_shape):
     """Carga los bounding boxes desde un archivo de etiquetas YOLO."""
     h, w = image_shape[:2]
@@ -30,10 +32,10 @@ def load_labels(label_path, image_shape):
         bboxes.append((class_id, x_min, y_min, box_width, box_height))
 
     return bboxes
-def update_database(database,image_name, new_case, user_feedback):
+
+
+def update_database(database, image_name, new_case, user_feedback):
     """Actualiza la base de datos con nuevos casos verificados (aprendizaje activo)."""
     new_case["bounding_box"]["class"] = user_feedback
     database[image_name] = new_case
     return database
-
-      

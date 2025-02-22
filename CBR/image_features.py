@@ -9,7 +9,7 @@ def extract_features(image):
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
     # Estadísticas básicas
-    mean_gray =float(np.mean(gray))
+    mean_gray = float(np.mean(gray))
     std_gray = float(np.std(gray))
     min_gray = float(np.min(gray))
     max_gray = float(np.max(gray))
@@ -27,32 +27,41 @@ def extract_features(image):
     std_hsv = list(np.std(hsv, axis=(0, 1)).tolist())
 
     # Histograma de color en RGB
-    list_rgb = [cv2.calcHist([image], [i], None, [256], [0, 256]).flatten().tolist() for i in range(3)]
-    hist_rgb = [list([float(n) for n in h]) for h in list_rgb] # Cantidad de píxeles para cada posible intensidad de color (de 0 a 255).
+    list_rgb = [
+        cv2.calcHist([image], [i], None, [256], [0, 256]).flatten().tolist()
+        for i in range(3)
+    ]
+    hist_rgb = [
+        list([float(n) for n in h]) for h in list_rgb
+    ]  # Cantidad de píxeles para cada posible intensidad de color (de 0 a 255).
 
     # Histograma de color en HSV (normalizado)
-    list_hsv = [cv2.calcHist([hsv], [i], None, [256], [0, 256]).flatten() for i in range(3)]
+    list_hsv = [
+        cv2.calcHist([hsv], [i], None, [256], [0, 256]).flatten() for i in range(3)
+    ]
     hist_hsv = [h / h.sum() for h in list_hsv]  # Normalización
 
     # Textura: características GLCM
-    glcm = graycomatrix(gray, distances=[1], angles=[0], levels=256, symmetric=True, normed=True)
-    contrast = graycoprops(glcm, 'contrast')[0, 0]
-    dissimilarity = graycoprops(glcm, 'dissimilarity')[0, 0]
-    homogeneity = graycoprops(glcm, 'homogeneity')[0, 0]
-    energy = graycoprops(glcm, 'energy')[0, 0]
-    correlation = graycoprops(glcm, 'correlation')[0, 0]
+    glcm = graycomatrix(
+        gray, distances=[1], angles=[0], levels=256, symmetric=True, normed=True
+    )
+    contrast = graycoprops(glcm, "contrast")[0, 0]
+    dissimilarity = graycoprops(glcm, "dissimilarity")[0, 0]
+    homogeneity = graycoprops(glcm, "homogeneity")[0, 0]
+    energy = graycoprops(glcm, "energy")[0, 0]
+    correlation = graycoprops(glcm, "correlation")[0, 0]
 
     # Local Binary Pattern (LBP)
-    lbp = local_binary_pattern(gray, P=8, R=1, method='uniform')
+    lbp = local_binary_pattern(gray, P=8, R=1, method="uniform")
     lbp_hist, _ = np.histogram(lbp.ravel(), bins=np.arange(0, 11), range=(0, 10))
     lbp_hist = lbp_hist.astype("float")
-    lbp_hist /= (lbp_hist.sum() + 1e-7)  # Normalización
+    lbp_hist /= lbp_hist.sum() + 1e-7  # Normalización
 
     return {
         "color_features": {
             "mean_hsv": mean_hsv,
             "std_hsv": std_hsv,
-            "hist_hsv": [h.tolist() for h in hist_hsv]  # Convertir a lista para JSON
+            "hist_hsv": [h.tolist() for h in hist_hsv],  # Convertir a lista para JSON
         },
         "texture_features": {
             "contrast": contrast,
@@ -60,13 +69,13 @@ def extract_features(image):
             "homogeneity": homogeneity,
             "energy": energy,
             "correlation": correlation,
-            "lbp_histogram": lbp_hist.tolist()
+            "lbp_histogram": lbp_hist.tolist(),
         },
         "stats": {
             "mean_gray": mean_gray,
             "std_gray": std_gray,
             "min_gray": min_gray,
             "max_gray": max_gray,
-            "hu_moments": hu_moments
-        }
+            "hu_moments": hu_moments,
+        },
     }
