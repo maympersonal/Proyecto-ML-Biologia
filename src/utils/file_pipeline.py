@@ -1,5 +1,5 @@
 import os
-from typing import List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 import yaml
 from pydantic import BaseModel
 import random
@@ -18,6 +18,17 @@ class LabeledImageRef(BaseModel):
     image_path: str
     label_path: str
 
+    def __iter__(self):
+        return iter((self.image_path, self.label_path))
+
+
+class YOLOLabel(BaseModel):
+    class_id: int
+    x: int
+    y: int
+    width: int
+    height: int
+
 
 class FilePipeline:
     def __init__(self, yolo_yaml: str):
@@ -30,6 +41,7 @@ class FilePipeline:
         self.base_dir = os.path.join(
             self.base_dir, obj_data.path if obj_data.path else "./"
         )
+        self.label_names = obj_data.names
 
         self.labeled_images = self._collect_labeled_images()
 
@@ -82,6 +94,9 @@ class FilePipeline:
         val_split = labeled_images_copy[split_idx:]
 
         return train_split, val_split
+
+    def get_labels(self) -> Dict[int, str]:
+        return {i: name for i, name in enumerate(self.label_names)}
 
     # TODO: improve this when the input for the models are clear
 
