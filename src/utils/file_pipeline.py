@@ -43,9 +43,13 @@ class FilePipeline:
         )
         self.label_names = obj_data.names
 
-        self.labeled_images = self._collect_labeled_images()
+        self.train_labeled_images, self.val_labeled_images, self.test_labeled_images = (
+            self._collect_labeled_images()
+        )
 
-    def _collect_labeled_images(self) -> List[LabeledImageRef]:
+    def _collect_labeled_images(
+        self,
+    ) -> Tuple[List[LabeledImageRef], List[LabeledImageRef], List[LabeledImageRef]]:
         labeled_images = []
         for split in ["train", "val", "test"]:
             split_dir = getattr(self.params, split)
@@ -63,37 +67,46 @@ class FilePipeline:
                     f"Directory for images or labels not found at ({images_dir}) or ({labels_dir})"
                 )
 
+            split_labeled_images = []
             for image_file in os.listdir(images_dir):
                 image_path = os.path.abspath(os.path.join(images_dir, image_file))
                 label_file = os.path.splitext(image_file)[0] + ".txt"
                 label_path = os.path.abspath(os.path.join(labels_dir, label_file))
                 if os.path.exists(label_path):
-                    labeled_images.append(
+                    split_labeled_images.append(
                         LabeledImageRef(image_path=image_path, label_path=label_path)
                     )
+            labeled_images.append(split_labeled_images)
 
-        return labeled_images
+        return tuple(labeled_images)
 
     def get_split(
-        self, proportion: float = 0.8, random_state: int = 42
-    ) -> Tuple[List[LabeledImageRef], List[LabeledImageRef]]:
-        if 0 > proportion or proportion > 1:
+        self, proportion_of_total: float = 0.8, random_state: int = 42
+    ) -> Tuple[List[LabeledImageRef], List[LabeledImageRef], List[LabeledImageRef]]:
+        if 0 > proportion_of_total or proportion_of_total > 1:
             raise ValueError(
-                f"The proportion must be between 0 and 1, not {proportion}."
+                f"The proportion must be between 0 and 1, not {proportion_of_total}."
             )
 
         random.seed(random_state)
 
-        labeled_images_copy = self.labeled_images.copy()
+        train = self.train_labeled_images.copy()
+        val = self.val_labeled_images.copy()
+        test = self.test_labeled_images.copy()
 
-        random.shuffle(labeled_images_copy)
+        random.shuffle(train)
+        random.shuffle(val)
+        random.shuffle(test)
 
-        split_idx = int(len(labeled_images_copy) * proportion)
+        split_idx_train = int(len(train) * proportion_of_total)
+        split_idx_val = int(len(val) * proportion_of_total)
+        split_idx_test = int(len(test) * proportion_of_total)
 
-        train_split = labeled_images_copy[:split_idx]
-        val_split = labeled_images_copy[split_idx:]
+        train_split = train[:split_idx_train]
+        val_split = val[:split_idx_val]
+        test_split = test[:split_idx_test]
 
-        return train_split, val_split
+        return train_split, val_split, test_split
 
     def get_labels(self) -> Dict[int, str]:
         return {i: name for i, name in enumerate(self.label_names)}
@@ -106,6 +119,6 @@ if __name__ == "__main__":
         "C:/Users/Pedro/Downloads/Proyecto ML-20250129T041304Z-001/Proyecto ML/Imágenes/dataset/data.yaml"
     )
 
-    train, valid = ppl.get_split()
+    train, valid, test = ppl.get_split()
 
     print(len(train), len(valid))
