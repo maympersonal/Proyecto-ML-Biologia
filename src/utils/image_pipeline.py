@@ -82,6 +82,50 @@ def detect_edges(
     return edges
 
 
+def calculate_iou(box1, box2):
+    x1, y1, w1, h1 = box1
+    x2, y2, w2, h2 = box2
+
+    # Calculate intersection coordinates
+    x_inter1 = max(x1, x2)
+    y_inter1 = max(y1, y2)
+    x_inter2 = min(x1 + w1, x2 + w2)
+    y_inter2 = min(y1 + h1, y2 + h2)
+
+    # Calculate intersection area
+    inter_width = max(0, x_inter2 - x_inter1)
+    inter_height = max(0, y_inter2 - y_inter1)
+    intersection_area = inter_width * inter_height
+
+    # Calculate areas of the two boxes
+    area1 = w1 * h1
+    area2 = w2 * h2
+
+    # Calculate IoU
+    iou = intersection_area / min(
+        area1, area2
+    )  # IoA (Intersection over Area of the smaller box)
+    return iou
+
+
+def filter_overlapping_boxes(bounding_boxes, ioa_threshold=0.9):
+    filtered_boxes = []
+    for i, box1 in enumerate(bounding_boxes):
+        keep = True
+        for j, box2 in enumerate(bounding_boxes):
+            if i == j:
+                continue
+            ioa = calculate_iou(box1, box2)
+            if (
+                ioa > ioa_threshold and box1[2] * box1[3] < box2[2] * box2[3]
+            ):  # If box1 is smaller and mostly covered by box2
+                keep = False
+                break
+        if keep:
+            filtered_boxes.append(box1)
+    return filtered_boxes
+
+
 def find_bounding_boxes(thresh_img: np.ndarray):
     contours, _ = cv2.findContours(  # type:ignore
         thresh_img,
@@ -89,8 +133,9 @@ def find_bounding_boxes(thresh_img: np.ndarray):
         cv2.CHAIN_APPROX_SIMPLE,  # type:ignore
     )
     bounding_boxes = [cv2.boundingRect(cnt) for cnt in contours]  # type:ignore
+    filtered_boxes = filter_overlapping_boxes(bounding_boxes)
 
-    return bounding_boxes
+    return filtered_boxes
 
 
 def draw_bounding_boxes(image: np.ndarray, bounding_boxes: list) -> np.ndarray:
