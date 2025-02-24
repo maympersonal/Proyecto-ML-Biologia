@@ -112,6 +112,8 @@ if __name__ == "__main__":
     # img = draw_bounding_boxes(img2, bbox)
     # img = detect_edges(img)
 
+    
+
     if len(img.shape) == 3:
         img = img[..., ::-1]
 
