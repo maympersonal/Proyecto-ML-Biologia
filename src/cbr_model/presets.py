@@ -6,6 +6,7 @@ from src.cbr_model.feature_extraction_autoencoder import autoencoder_image_to_ve
 from src.cbr_model.feature_extraction_SIFT_LBP import sift_lbp_image_to_vector
 from src.cbr_model.knowledge_managers_svm import svm_manager
 from src.cbr_model.knowledge_managers_random_forest import random_forest_manager
+from src.cbr_model.build_autoencoder import get_autoencoder
 from src.utils.image_pipeline import resize_and_pad_image
 
 """
@@ -30,13 +31,11 @@ def imagenetCNN_euclideanDistance_knn() -> CaseBasedReasoning:
     return cbr
 
 
-def imagenetCNN_euclideanDistance_autoencoder_svm() -> CaseBasedReasoning:
+def imagenetCNN_euclideanDistance_autoencoder_svm(encoder) -> CaseBasedReasoning:
     cbr = CaseBasedReasoning()
 
-    model = VGG16(weights="imagenet", include_top=False, pooling="avg")
-
     cbr.feature_extractor = lambda image: autoencoder_image_to_vector(
-        resize_and_pad_image(image), model
+        resize_and_pad_image(image), encoder
     )
 
     cbr.knowledge_manager = svm_manager
