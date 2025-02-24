@@ -1,6 +1,11 @@
 import cv2
 import numpy as np
+import cv2
+import numpy as np
 from skimage.feature import graycomatrix, graycoprops, local_binary_pattern
+from tensorflow.keras.models import load_model
+from skimage.feature import graycomatrix, graycoprops, local_binary_pattern
+
 
 
 def extract_features(image):
@@ -78,4 +83,48 @@ def extract_features(image):
             "max_gray": max_gray,
             "hu_moments": hu_moments,
         },
+    }
+
+
+# Implementación 2: Autoencoder + Estadísticas
+autoencoder = load_model("autoencoder.h5")  # Se asume que hay un modelo preentrenado
+def extract_features_autoencoder(image):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    gray_resized = cv2.resize(gray, (28, 28)).astype("float32") / 255.0
+    gray_resized = np.expand_dims(gray_resized, axis=(0, -1))
+    encoded_features = autoencoder.predict(gray_resized).flatten().tolist()
+    
+    mean_gray = float(np.mean(gray))
+    std_gray = float(np.std(gray))
+    min_gray = float(np.min(gray))
+    max_gray = float(np.max(gray))
+    
+    return {
+        "autoencoder_features": encoded_features,
+        "stats": {
+            "mean_gray": mean_gray,
+            "std_gray": std_gray,
+            "min_gray": min_gray,
+            "max_gray": max_gray,
+        }
+    }
+
+# Implementación 3: SIFT + LBP
+def extract_features_sift_lbp(image):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    
+    # SIFT Features
+    sift = cv2.SIFT_create()
+    keypoints, descriptors = sift.detectAndCompute(gray, None)
+    descriptors = descriptors.flatten().tolist() if descriptors is not None else []
+    
+    # LBP Features
+    lbp = local_binary_pattern(gray, P=8, R=1, method="uniform")
+    lbp_hist, _ = np.histogram(lbp.ravel(), bins=np.arange(0, 11), range=(0, 10))
+    lbp_hist = lbp_hist.astype("float")
+    lbp_hist /= lbp_hist.sum() + 1e-7  # Normalización
+    
+    return {
+        "sift_features": descriptors,
+        "lbp_histogram": lbp_hist.tolist()
     }

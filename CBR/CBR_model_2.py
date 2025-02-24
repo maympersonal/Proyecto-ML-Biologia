@@ -5,9 +5,9 @@ import os
 import yaml
 from tqdm import tqdm
 from database_utils import load_labels, update_database
-from image_features import extract_features
-from image_segmentation import segment_image
-from classify_images import find_similar_cases
+from image_features import extract_features_autoencoder
+from image_segmentation import segment_image_unet
+from classify_images import find_similar_cases_svm
 
 
 class CBR_model:
@@ -66,7 +66,7 @@ class CBR_model:
                 if roi.size == 0:
                     continue
 
-                features = extract_features(roi)
+                features = extract_features_autoencoder(roi)
                 # Agregar información del bounding box
                 espora_id = f"{file_name}_espora_{i}_class_{class_id}"
                 all_features[espora_id] = {
@@ -88,14 +88,14 @@ class CBR_model:
     def predict(self, image, image_name, case_database, threshold):
         """Predice el tipo de espora en una imagen usando CBR y aprendizaje automático."""
         # 1. Segmentar la imagen
-        bounding_boxes = segment_image(image)
+        bounding_boxes = segment_image_unet(image)
         best_case = []
         for i, box in enumerate(bounding_boxes):
             # 2. Extraer características de la espora detectada
             image_name = f"{image_name}_espora_{i}"
             x, y, w, h = box
             roi = image[y : y + h, x : x + w]
-            features = extract_features(roi)
+            features = extract_features_autoencoder(roi)
             all_features = {
                 "bounding_box": {
                     "class": "",
@@ -109,7 +109,7 @@ class CBR_model:
 
             # 3. Buscar el caso más similar en la base de datos
             best_case.append(
-                find_similar_cases(
+                find_similar_cases_svm(
                     all_features, image_name, case_database, threshold, self.k
                 )
             )
