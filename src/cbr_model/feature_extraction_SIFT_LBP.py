@@ -38,7 +38,7 @@ def compute_lbp(gray: np.ndarray) -> np.ndarray:
     return lbp
 
 
-def sift_lbp_image_to_vector(image: np.ndarray, model: Model) -> np.ndarray:
+def sift_lbp_image_to_vector(image: np.ndarray) -> np.ndarray:
     """
     Extrae un vector de características combinando SIFT y LBP:
       - SIFT: Se calcula la media de los descriptores SIFT (vector de 128 dimensiones).

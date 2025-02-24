@@ -46,10 +46,8 @@ def imagenetCNN_euclideanDistance_autoencoder_svm(encoder) -> CaseBasedReasoning
 def imagenetCNN_euclideanDistance_sift_lbp_random_forest() -> CaseBasedReasoning:
     cbr = CaseBasedReasoning()
 
-    model = VGG16(weights="imagenet", include_top=False, pooling="avg")
-
     cbr.feature_extractor = lambda image: sift_lbp_image_to_vector(
-        resize_and_pad_image(image), model
+        resize_and_pad_image(image)
     )
 
     cbr.knowledge_manager = random_forest_manager
