@@ -1,3 +1,23 @@
+# Flujo del pipeline de trabajo con YOLO
+
+```mermaid
+graph TD
+    A[Cargar modelo YOLO preentrenado]:::start --> B[Ajuste de Hiperparámetros]:::process
+    B -->|Optimización con AdamW| C[Generar gráficos y reportes de rendimiento]:::report
+    C --> D[Entrenamiento con mejores hiperparámetros]:::training
+    D -->|Usando AdamW y tamaño de imagen predefinido| E[Ejecutar 10 épocas de entrenamiento]:::training
+    E --> F[Guardar modelo resultante con nombre específico]:::storage
+    F --> G[Generar gráficos y reportes de validación]:::report
+    G --> H[Subir modelo entrenado a Google Drive]:::storage
+
+    classDef start fill:#ffcccb,stroke:#d9534f,stroke-width:2px;
+    classDef process fill:#f9f9a0,stroke:#e6b800,stroke-width:2px;
+    classDef report fill:#b3d9ff,stroke:#337ab7,stroke-width:2px;
+    classDef training fill:#bdf7bd,stroke:#4CAF50,stroke-width:2px;
+    classDef storage fill:#d9b3ff,stroke:#800080,stroke-width:2px;
+
+```
+
 # Flujo del pipeline de trabajo con CBRT
 
 ```mermaid
