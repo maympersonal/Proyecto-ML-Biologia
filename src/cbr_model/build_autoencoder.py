@@ -65,6 +65,6 @@ def get_autoencoder(x_train, validation):
     autoencoder.compile(optimizer="adam", loss="mse")
 
     # Entrenar el autoencoder
-    autoencoder.fit(x_train, epochs=50, batch_size=32, validation_data=validation)
+    autoencoder.fit(x_train, epochs=50, validation_data=validation)
 
     return autoencoder
