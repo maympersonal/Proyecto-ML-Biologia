@@ -1,0 +1,8846 @@
+{
+    "38_4_jpg.rf.53687af4604024c3102f698c90e2a495": [
+        {
+            "bbox": [
+                0,
+                33,
+                41,
+                78
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "40_2_jpg.rf.5b5239cf487f12cbaa60dff5187a97f4": [
+        {
+            "bbox": [
+                0,
+                458,
+                143,
+                54
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                169,
+                0,
+                156,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "40_2_jpg.rf.de6377a13d20e87c3e22bdcdb423055e": [
+        {
+            "bbox": [
+                67,
+                402,
+                24,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                200,
+                243,
+                47,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                514,
+                209,
+                83,
+                68
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                77,
+                195,
+                72,
+                83
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                313,
+                77,
+                43,
+                56
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                134,
+                59,
+                50,
+                84
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                607,
+                0,
+                33,
+                73
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                119,
+                0,
+                83,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "41_1_jpg.rf.a2946983d288a9de9c6c09ec7cfde9d2": [
+        {
+            "bbox": [
+                200,
+                432,
+                48,
+                45
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "42_2_jpg.rf.0a60b44d06098eca1c2fd2406049a426": [
+        {
+            "bbox": [
+                0,
+                286,
+                35,
+                85
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                534,
+                250,
+                106,
+                262
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                566,
+                0,
+                74,
+                91
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                342,
+                154
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "47_4_jpg.rf.1de1f70cf9b4cacdf97124eb245cfbee": [
+        {
+            "bbox": [
+                281,
+                497,
+                64,
+                15
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                478,
+                53,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                88,
+                436,
+                39,
+                15
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                361,
+                399,
+                39,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                340,
+                38,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                291,
+                287,
+                55,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                76,
+                255,
+                73,
+                57
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                623,
+                245,
+                17,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                557,
+                106,
+                83,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                244,
+                79,
+                134,
+                124
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                518,
+                28,
+                32,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                315,
+                156
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "4_jpg.rf.634cc2b45b8ca3e1b6d7fcbe9b2978c4": [
+        {
+            "bbox": [
+                54,
+                150,
+                19,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "51_3_jpg.rf.bc6839fdca220775d6da0798d1bf4e6d": [
+        {
+            "bbox": [
+                321,
+                141,
+                47,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                247,
+                106,
+                19,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                275,
+                0,
+                17,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                62,
+                0,
+                39,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "5_3_jpg.rf.71180349a8ae8701a946bbb0b5c68db0": [
+        {
+            "bbox": [
+                487,
+                496,
+                21,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                516,
+                398,
+                58,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                593,
+                354,
+                47,
+                50
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                50,
+                326,
+                85,
+                186
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                44,
+                198,
+                67
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                509,
+                0,
+                131,
+                207
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                85,
+                0,
+                356,
+                466
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "5_3_jpg.rf.ab6d675f55a31fde560e2f2d06050e31": [
+        {
+            "bbox": [
+                96,
+                421,
+                29,
+                91
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                582,
+                233,
+                58,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                270,
+                201,
+                148,
+                171
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                83,
+                226
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "6_2_jpg.rf.72289a90d2ceb48406b59908a59770b2": [
+        {
+            "bbox": [
+                584,
+                491,
+                56,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                297,
+                461,
+                82,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                228,
+                411,
+                21,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                629,
+                352,
+                11,
+                28
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "6_2_jpg.rf.c8138f9acda46f3645487c9262197d60": [
+        {
+            "bbox": [
+                621,
+                434,
+                19,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                197,
+                410,
+                20,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                31,
+                380,
+                41,
+                57
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                220,
+                30,
+                121
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                192,
+                198,
+                39,
+                28
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                263,
+                80,
+                36,
+                69
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                62,
+                31,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "6_4_jpg.rf.f023505f518bc0f547bbb23d2213abe6": [
+        {
+            "bbox": [
+                583,
+                450,
+                57,
+                62
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                198,
+                389,
+                20,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                358,
+                59,
+                83
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                322,
+                193,
+                89,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                229,
+                130,
+                41,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                94,
+                47,
+                182
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "9_2_jpg.rf.1afda28aac9e2328f1d2807f7d585767": [
+        {
+            "bbox": [
+                201,
+                375,
+                198,
+                137
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                341,
+                39,
+                46
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                381,
+                321,
+                19,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                586,
+                0,
+                54,
+                165
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                259,
+                0,
+                86,
+                79
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                101,
+                0,
+                13,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-21-_jpg.rf.115af0f0c15e88685f9d939e5e6d1539": [
+        {
+            "bbox": [
+                1093,
+                980,
+                62,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                187,
+                859,
+                96,
+                165
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                635,
+                31,
+                66
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1113,
+                547,
+                27,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                162,
+                141,
+                116
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-23-_jpg.rf.67b3552d45ff09c531ef5620163aaad7": [
+        {
+            "bbox": [
+                0,
+                718,
+                71,
+                93
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                306,
+                628,
+                49,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1261,
+                168,
+                19,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-25-_jpg.rf.18696dd25de12f7c1fd637bdea0a60c5": [
+        {
+            "bbox": [
+                0,
+                940,
+                127,
+                84
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                381,
+                883,
+                244,
+                141
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1000,
+                835,
+                35,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                849,
+                820,
+                64,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-3-_jpg.rf.bda1a80d6cf1fc46fbadbc3d09b36a40": [
+        {
+            "bbox": [
+                97,
+                968,
+                72,
+                56
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1071,
+                872,
+                129,
+                152
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                150,
+                819,
+                39,
+                31
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                772,
+                733,
+                295,
+                291
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                24,
+                715,
+                51,
+                58
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                462,
+                621,
+                264,
+                403
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                406,
+                429,
+                11,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                661,
+                400,
+                95,
+                130
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                265,
+                35,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1198,
+                204,
+                82,
+                259
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                202,
+                108,
+                143,
+                127
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-38-_jpg.rf.9945b3c9872aade95dfd665dc5cc2741": [
+        {
+            "bbox": [
+                554,
+                445,
+                43,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1260,
+                95,
+                20,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                795,
+                60,
+                53,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                975,
+                0,
+                44,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                45,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-5-_jpg.rf.baaf07d762b52643e8ae08504432a954": [
+        {
+            "bbox": [
+                1270,
+                940,
+                10,
+                49
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                838,
+                832,
+                27,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                50,
+                816,
+                89,
+                95
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                705,
+                773,
+                26,
+                55
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1185,
+                695,
+                45,
+                13
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1257,
+                635,
+                23,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                496,
+                602,
+                96,
+                75
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                55,
+                474,
+                22,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1245,
+                428,
+                35,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                743,
+                263,
+                144,
+                185
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1200,
+                218,
+                80,
+                43
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                254,
+                174,
+                40,
+                101
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1134,
+                128,
+                48,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                971,
+                122,
+                126,
+                81
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                47,
+                71,
+                92
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1132,
+                0,
+                73,
+                61
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-7-_jpg.rf.c286ac505b9d6a3789bbb1c7e1bd2095": [
+        {
+            "bbox": [
+                861,
+                1010,
+                24,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                421,
+                1006,
+                20,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                927,
+                994,
+                95,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                189,
+                891,
+                18,
+                19
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                977,
+                846,
+                51,
+                43
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                26,
+                675,
+                23,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                294,
+                621,
+                34,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                124,
+                440,
+                44,
+                55
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                356,
+                51,
+                184
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                112,
+                230,
+                27,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                158,
+                116,
+                39,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                663,
+                76,
+                32,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                874,
+                42,
+                23,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                965,
+                39,
+                39,
+                37
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_20-1-_jpg.rf.2b765d552d517bd61d885ebe311c47f9": [
+        {
+            "bbox": [
+                1171,
+                951,
+                109,
+                73
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                699,
+                852,
+                34,
+                64
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                125,
+                730,
+                160,
+                70
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                946,
+                649,
+                154,
+                199
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                609,
+                521,
+                70,
+                109
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                86,
+                470,
+                39,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1136,
+                324,
+                144,
+                209
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                859,
+                0,
+                67,
+                61
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                612,
+                0,
+                148,
+                174
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "1_06_20-14-_jpg.rf.fa1fe2b63c14c87dbe5bd17837c7ceca": [
+        {
+            "bbox": [
+                1255,
+                1004,
+                25,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                601,
+                818,
+                59,
+                65
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1250,
+                574,
+                30,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                883,
+                449,
+                31,
+                73
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                696,
+                429,
+                33,
+                11
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                64,
+                385,
+                14,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                635,
+                294,
+                37,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                504,
+                140,
+                39,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                213,
+                79,
+                33,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                836,
+                0,
+                63,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_20-19-_jpg.rf.bee7b6a2e96d8201e73974658253c802": [
+        {
+            "bbox": [
+                1186,
+                1008,
+                25,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                560,
+                1008,
+                36,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                647,
+                983,
+                50,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                513,
+                953,
+                15,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                845,
+                940,
+                22,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                644,
+                937,
+                17,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1031,
+                908,
+                28,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                322,
+                753,
+                50,
+                80
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                16,
+                596,
+                25,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                452,
+                583,
+                147,
+                81
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                81,
+                426,
+                26,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                673,
+                314,
+                35,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                137,
+                299,
+                35,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                450,
+                298,
+                28,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                483,
+                270,
+                42,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                473,
+                198,
+                31,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                198,
+                177,
+                47,
+                76
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                170,
+                118,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                913,
+                101,
+                61,
+                74
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                416,
+                79,
+                27,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1013,
+                47,
+                39,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                584,
+                0,
+                48,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_20-23-_jpg.rf.ea895ca228bf92eef9db3017b10feb21": [
+        {
+            "bbox": [
+                389,
+                1006,
+                55,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                816,
+                993,
+                41,
+                31
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                276,
+                703,
+                52,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                73,
+                641,
+                23,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                258,
+                588,
+                48,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1169,
+                576,
+                74,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1117,
+                427,
+                37,
+                68
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                285,
+                322,
+                32,
+                67
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1025,
+                295,
+                62,
+                70
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                270,
+                12,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                891,
+                257,
+                21,
+                31
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                840,
+                89,
+                79,
+                111
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                439,
+                0,
+                134,
+                47
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                363,
+                0,
+                66,
+                46
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                79,
+                107
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "1_06_20-24-_jpg.rf.5b6aa18deae0a533881f754469e05611": [
+        {
+            "bbox": [
+                771,
+                207,
+                39,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                389,
+                116,
+                17,
+                19
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                51,
+                90
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_20-31-_jpg.rf.80edb013f76fda081b86ac14a1b924d4": [
+        {
+            "bbox": [
+                1261,
+                1001,
+                19,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1109,
+                943,
+                76,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                370,
+                825,
+                87,
+                84
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                340,
+                782,
+                30,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                654,
+                713,
+                32,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                295,
+                588,
+                48,
+                46
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                559,
+                32,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                922,
+                523,
+                107,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                483,
+                515,
+                26,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1123,
+                504,
+                36,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1169,
+                401,
+                50,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                202,
+                385,
+                171,
+                113
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                499,
+                249,
+                19,
+                55
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1060,
+                223,
+                43,
+                28
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                477,
+                213,
+                15,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                591,
+                208,
+                55,
+                59
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                186,
+                194,
+                31,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                400,
+                72,
+                19,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                417,
+                0,
+                73,
+                65
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                283,
+                0,
+                11,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_20-36-_jpg.rf.64991cb185a7d1d7a35fec124d0814fa": [
+        {
+            "bbox": [
+                833,
+                998,
+                27,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                718,
+                898,
+                60,
+                54
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                100,
+                816,
+                88,
+                64
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                491,
+                765,
+                69,
+                129
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1090,
+                751,
+                47,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                806,
+                667,
+                36,
+                50
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                665,
+                647,
+                57,
+                61
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1219,
+                630,
+                28,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                578,
+                575,
+                18,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                484,
+                418,
+                85,
+                131
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1087,
+                416,
+                25,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                949,
+                415,
+                64,
+                118
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                475,
+                410,
+                21,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                238,
+                360,
+                40,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                898,
+                330,
+                27,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                708,
+                283,
+                44,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                905,
+                142,
+                151,
+                113
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                974,
+                125,
+                17,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                675,
+                93,
+                73,
+                79
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                78,
+                88,
+                93,
+                109
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                211,
+                83,
+                25,
+                37
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1268,
+                0,
+                12,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                985,
+                0,
+                101,
+                66
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_20-5-_jpg.rf.63b83fe472a973ff384973712001938f": [
+        {
+            "bbox": [
+                897,
+                1010,
+                25,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                524,
+                0,
+                34,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                82,
+                71
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_22-11-_jpg.rf.2591ca7d6891937f10749545b38a090a": [
+        {
+            "bbox": [
+                621,
+                818,
+                114,
+                206
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                703,
+                575,
+                71,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                295,
+                537,
+                60,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                903,
+                496,
+                34,
+                79
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                619,
+                470,
+                17,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                991,
+                398,
+                53,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                365,
+                240,
+                47,
+                85
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                437,
+                107,
+                42,
+                81
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                978,
+                0,
+                65,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_22-12-_jpg.rf.0c62be84d7316a11e4082def0e80b309": [
+        {
+            "bbox": [
+                792,
+                966,
+                53,
+                58
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1132,
+                964,
+                38,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1206,
+                938,
+                16,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                370,
+                855,
+                54,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                688,
+                781,
+                32,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                371,
+                755,
+                26,
+                71
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                658,
+                639,
+                22,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                771,
+                631,
+                63,
+                100
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                619,
+                230,
+                177
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                234,
+                563,
+                30,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1271,
+                532,
+                9,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                508,
+                438,
+                73,
+                73
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                72,
+                398,
+                28,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                990,
+                355,
+                177,
+                109
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                228,
+                103,
+                80
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                460,
+                215,
+                128,
+                90
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                881,
+                135,
+                105,
+                72
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                656,
+                0,
+                99,
+                91
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                569,
+                0,
+                32,
+                11
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_00-8-_jpg.rf.19f754362dab75fc5640131b5677fe32": [
+        {
+            "bbox": [
+                254,
+                815,
+                16,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                314,
+                737,
+                116,
+                165
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                329,
+                645,
+                73,
+                58
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                220,
+                562,
+                34,
+                66
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                326,
+                534,
+                65,
+                64
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                113,
+                483,
+                42,
+                50
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                395,
+                464,
+                35,
+                54
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                256,
+                454,
+                56,
+                70
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                93,
+                416,
+                30,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_02-1-_jpg.rf.0cb4922802baba8fd53948903ff3b4ce": [
+        {
+            "bbox": [
+                629,
+                873,
+                174,
+                151
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1017,
+                0,
+                263,
+                125
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                471,
+                0,
+                51,
+                10
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_02-14-_jpg.rf.09a43599b5caf27c6e4bf8df70d1ca3d": [
+        {
+            "bbox": [
+                543,
+                528,
+                103,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                985,
+                345,
+                28,
+                69
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                575,
+                321,
+                31,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                515,
+                16,
+                26,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                788,
+                0,
+                92,
+                64
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_02-17-_jpg.rf.3f109aef3a8a6ac4434aac28ed111a3c": [
+        {
+            "bbox": [
+                987,
+                983,
+                31,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                178,
+                900,
+                338,
+                124
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                847,
+                50,
+                56
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1046,
+                803,
+                92,
+                128
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                589,
+                781,
+                163,
+                243
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                298,
+                779,
+                90,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                808,
+                771,
+                56,
+                96
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1259,
+                669,
+                21,
+                49
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                392,
+                575,
+                43,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                536,
+                31,
+                96
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                896,
+                495,
+                334,
+                170
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "2_06_02-24-_jpg.rf.e2461e19310df31b3e443a4ca4a62a2b": [
+        {
+            "bbox": [
+                577,
+                871,
+                29,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                396,
+                677,
+                14,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                483,
+                565,
+                20,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                381,
+                521,
+                81,
+                88
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                252,
+                521,
+                22,
+                37
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_02-3-_jpg.rf.451ff1d4b1272f1e820016a28f715b47": [
+        {
+            "bbox": [
+                528,
+                675,
+                40,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                366,
+                591,
+                16,
+                19
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                590,
+                511,
+                36,
+                37
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                439,
+                506,
+                24,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_02-7-_jpg.rf.b74f46f71ecdbfc66a8ea7b79caa729f": [
+        {
+            "bbox": [
+                0,
+                966,
+                155,
+                58
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                941,
+                691,
+                102,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                445,
+                327,
+                160,
+                118
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                705,
+                223,
+                60,
+                55
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                929,
+                0,
+                80,
+                123
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                616,
+                0,
+                206,
+                200
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                30,
+                69
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_04-15-_jpg.rf.77be5ef4a8a5fa1be41e9af49d099f62": [
+        {
+            "bbox": [
+                434,
+                941,
+                24,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                412,
+                869,
+                28,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                317,
+                813,
+                24,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                248,
+                641,
+                28,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                629,
+                38,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                78,
+                536,
+                18,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                19,
+                424,
+                69,
+                64
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_04-22-_jpg.rf.5774e8219407c1216c5d5bf393cdc179": [
+        {
+            "bbox": [
+                161,
+                1008,
+                46,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                517,
+                937,
+                20,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                44,
+                857,
+                99,
+                101
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                116,
+                486,
+                76,
+                71
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                307,
+                337,
+                35,
+                65
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                81,
+                259,
+                90,
+                85
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                349,
+                151,
+                23,
+                11
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_04-23-_jpg.rf.565ba89fac50388572d25689aed2566a": [
+        {
+            "bbox": [
+                0,
+                917,
+                29,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                824,
+                32,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                312,
+                558,
+                19,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                543,
+                535,
+                15,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                30,
+                174,
+                152,
+                66
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                49,
+                0,
+                33,
+                11
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_04-29-_jpg.rf.46e7c455e44f3ba77e6e64813adc301a": [
+        {
+            "bbox": [
+                1229,
+                778,
+                51,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1165,
+                611,
+                63,
+                118
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                317,
+                208,
+                100
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1048,
+                222,
+                23,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                190,
+                18,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                785,
+                0,
+                53,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_12-35-_jpg.rf.677576e9b13b251cb53f13787fb07abb": [
+        {
+            "bbox": [
+                751,
+                995,
+                49,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1236,
+                953,
+                44,
+                71
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                816,
+                669,
+                115,
+                80
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1152,
+                435,
+                128,
+                120
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                275,
+                241,
+                257
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                285,
+                257,
+                330,
+                199
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                814,
+                0,
+                286,
+                211
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                330,
+                0,
+                33,
+                9
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_12-8-_jpg.rf.32620b18f040411a2575b8e2b1b9cd97": [
+        {
+            "bbox": [
+                516,
+                928,
+                118,
+                49
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                177,
+                924,
+                28,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                719,
+                915,
+                63,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                359,
+                849,
+                23,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                799,
+                71,
+                105
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                419,
+                748,
+                16,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                704,
+                717,
+                40,
+                88
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                74,
+                709,
+                70,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                699,
+                37,
+                9
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                255,
+                675,
+                69,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1013,
+                633,
+                18,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1078,
+                621,
+                151,
+                241
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                731,
+                613,
+                31,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                521,
+                581,
+                40,
+                61
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                590,
+                389,
+                89,
+                57
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                842,
+                373,
+                12,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                906,
+                341,
+                76,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                44,
+                307,
+                23,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                336,
+                221,
+                142,
+                97
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                817,
+                138,
+                76,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1248,
+                93,
+                32,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                666,
+                47,
+                81,
+                50
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_16-1-_jpg.rf.d9ffc20b8f3e6ea5a1bb3f448aae169e": [
+        {
+            "bbox": [
+                902,
+                1009,
+                21,
+                15
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                593,
+                807,
+                192,
+                217
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                799,
+                62,
+                65
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                907,
+                751,
+                240,
+                140
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                113,
+                690,
+                53,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                290,
+                618,
+                118,
+                143
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                787,
+                549,
+                46,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                258,
+                442,
+                48,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                486,
+                305,
+                37,
+                59
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1249,
+                300,
+                31,
+                159
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                286,
+                21,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                845,
+                267,
+                138,
+                219
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1252,
+                112,
+                28,
+                124
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                994,
+                84,
+                114,
+                78
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                645,
+                0,
+                26,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_16-11-_jpg.rf.6308116b9b3b57eee7ca3dfd0fca1b85": [
+        {
+            "bbox": [
+                874,
+                975,
+                92,
+                49
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1239,
+                383,
+                41,
+                57
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_16-14-_jpg.rf.7a540e43e390c6e3651bf2b7732540e4": [
+        {
+            "bbox": [
+                990,
+                0,
+                290,
+                211
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                526,
+                0,
+                241,
+                94
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "1_06_16-17-_jpg.rf.24589ddc727ef3513db8f8b678941afb": [
+        {
+            "bbox": [
+                1084,
+                956,
+                36,
+                13
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                901,
+                914,
+                25,
+                28
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                60,
+                682,
+                84,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                258,
+                641,
+                22,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1028,
+                638,
+                41,
+                9
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                341,
+                398,
+                47,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                712,
+                181,
+                55,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                588,
+                0,
+                121,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_16-18-_jpg.rf.3e251bdf6ad026e6a40dbc9b239be40f": [
+        {
+            "bbox": [
+                201,
+                1003,
+                42,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                813,
+                977,
+                48,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                474,
+                974,
+                61,
+                50
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                345,
+                954,
+                32,
+                9
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                657,
+                838,
+                51,
+                84
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1044,
+                812,
+                58,
+                100
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                61,
+                802,
+                27,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1215,
+                786,
+                65,
+                76
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                294,
+                666,
+                37,
+                56
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1172,
+                550,
+                30,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                984,
+                541,
+                16,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                633,
+                479,
+                32,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                303,
+                463,
+                20,
+                70
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                438,
+                367,
+                95,
+                114
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                425,
+                317,
+                31,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1052,
+                274,
+                67,
+                128
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1129,
+                220,
+                24,
+                15
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                796,
+                167,
+                20,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                196,
+                160,
+                74,
+                152
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                105,
+                33,
+                128
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                167,
+                95,
+                25,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1235,
+                45,
+                45,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_16-2-_jpg.rf.06c7fa021e43cfe54fb1e3a72ef2fc3a": [
+        {
+            "bbox": [
+                1099,
+                1012,
+                43,
+                12
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1010,
+                1010,
+                68,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1197,
+                737,
+                83,
+                183
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                888,
+                275,
+                19,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                373,
+                180,
+                115,
+                85
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1043,
+                0,
+                25,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-14-_jpg.rf.261491d70c93f2098308d12f35b5af41": [
+        {
+            "bbox": [
+                177,
+                964,
+                88,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                382,
+                7,
+                48
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-15-_jpg.rf.bb7887c60f3a7eb60f69ce906326fe65": [
+        {
+            "bbox": [
+                850,
+                899,
+                55,
+                87
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1137,
+                770,
+                143,
+                122
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                778,
+                748,
+                45,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                466,
+                702,
+                90,
+                147
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                583,
+                226,
+                181
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                970,
+                573,
+                18,
+                59
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                680,
+                559,
+                113,
+                119
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                605,
+                468,
+                26,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                143,
+                269,
+                436,
+                372
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                571,
+                201,
+                80,
+                123
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                155,
+                114,
+                78
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                818,
+                0,
+                112,
+                64
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                486,
+                0,
+                90,
+                99
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                206,
+                0,
+                78,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_12-18-_jpg.rf.5f1ab52439bb5ee55355fb87b5d1acc9": [
+        {
+            "bbox": [
+                541,
+                995,
+                35,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                94,
+                973,
+                54,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                759,
+                834,
+                32,
+                95
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                308,
+                803,
+                65,
+                105
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                91,
+                769,
+                37,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                986,
+                762,
+                27,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                624,
+                727,
+                16,
+                45
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                337,
+                683,
+                125,
+                79
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                156,
+                643,
+                84,
+                113
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                587,
+                496,
+                59,
+                106
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                340,
+                467,
+                118,
+                106
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                53,
+                444,
+                45,
+                100
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                265,
+                395,
+                84,
+                128
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                511,
+                380,
+                12,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                420,
+                296,
+                36,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                173,
+                295,
+                54,
+                37
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1260,
+                282,
+                20,
+                64
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                782,
+                222,
+                34,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1064,
+                218,
+                75,
+                83
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                277,
+                208,
+                21,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                880,
+                206,
+                89,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                910,
+                112,
+                32,
+                15
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                985,
+                65,
+                56,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                781,
+                54,
+                58,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1267,
+                0,
+                13,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                300,
+                0,
+                88,
+                127
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "1_06_18-19-_jpg.rf.f59a61f6b7394b1a37e861864d0d794a": [
+        {
+            "bbox": [
+                969,
+                755,
+                126,
+                161
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                319,
+                729,
+                66,
+                100
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                504,
+                670,
+                158,
+                119
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                144,
+                542,
+                24,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                290,
+                459,
+                50,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                345,
+                15,
+                28
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                389,
+                290,
+                27,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1251,
+                187,
+                29,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_22-20-_jpg.rf.8c3b9afd8203e4f8da2d19cb7b173501": [
+        {
+            "bbox": [
+                427,
+                877,
+                52,
+                102
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                657,
+                864,
+                56,
+                31
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                320,
+                862,
+                42,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                468,
+                808,
+                73,
+                48
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                963,
+                377,
+                126,
+                148
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1166,
+                0,
+                114,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                20,
+                76
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_00-3-_jpg.rf.12093db070ffa29e976c7b982a95e51e": [
+        {
+            "bbox": [
+                0,
+                970,
+                68,
+                54
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                797,
+                66,
+                103
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_04-31-_jpg.rf.30335cf785c93f9d71f553df0a1c5356": [
+        {
+            "bbox": [
+                631,
+                724,
+                17,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                885,
+                705,
+                17,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                801,
+                646,
+                61,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                865,
+                607,
+                31,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                191,
+                588,
+                134,
+                112
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                300,
+                425,
+                17,
+                28
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                702,
+                366,
+                23,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                335,
+                344,
+                18,
+                15
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1033,
+                122,
+                35,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_08-13-_jpg.rf.f4b705bc3bacb444b5f4f3a121476ce2": [
+        {
+            "bbox": [
+                0,
+                459,
+                29,
+                108
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                506,
+                0,
+                100,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "38_3_jpg.rf.5ef3dde21605b6b41babb9876131d6fb": [
+        {
+            "bbox": [
+                0,
+                300,
+                138,
+                105
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_04-9-_jpg.rf.c64209d09c5e7e1fa583d14390a1ad31": [
+        {
+            "bbox": [
+                351,
+                718,
+                48,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                673,
+                43,
+                111
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                159,
+                527,
+                85,
+                165
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                487,
+                40,
+                83
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                227,
+                18,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_06-15-_jpg.rf.fd48061772142b8be66128939a1cf0af": [
+        {
+            "bbox": [
+                570,
+                983,
+                78,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1139,
+                508,
+                27,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                111,
+                291,
+                20,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                442,
+                261,
+                26,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                232,
+                24,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                136,
+                217,
+                117,
+                153
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                368,
+                0,
+                22,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_06-20-_jpg.rf.fe4e0e4ca78d91d1af82784a4e6d8ae4": [
+        {
+            "bbox": [
+                405,
+                942,
+                18,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1119,
+                869,
+                74,
+                107
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                340,
+                802,
+                111,
+                90
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1224,
+                698,
+                56,
+                131
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                563,
+                665,
+                13,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                275,
+                620,
+                116,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                613,
+                543,
+                37,
+                63
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                957,
+                535,
+                19,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1197,
+                522,
+                49,
+                55
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1134,
+                427,
+                52,
+                80
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                368,
+                415,
+                83,
+                114
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                374,
+                44,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                129,
+                286,
+                180,
+                192
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                304,
+                221,
+                101,
+                105
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                100,
+                190,
+                59,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                201,
+                146,
+                81,
+                110
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1136,
+                0,
+                53,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_06-27-_jpg.rf.dd828d05357d12f4a9993ddccc930076": [
+        {
+            "bbox": [
+                596,
+                1007,
+                40,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                824,
+                958,
+                74,
+                66
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                968,
+                0,
+                52,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_06-3-_jpg.rf.e3c67c0466944212ec2fdcf9f577ab7a": [
+        {
+            "bbox": [
+                1194,
+                173,
+                86,
+                124
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_06-34-_jpg.rf.c87f2f8e065c4803311cff0f92e435fd": [
+        {
+            "bbox": [
+                88,
+                969,
+                47,
+                55
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                928,
+                952,
+                25,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                982,
+                929,
+                33,
+                10
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                531,
+                821,
+                122,
+                93
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1163,
+                746,
+                103,
+                83
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                544,
+                742,
+                51,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                194,
+                614,
+                54,
+                104
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                865,
+                612,
+                31,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1092,
+                522,
+                118,
+                80
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                456,
+                445,
+                50,
+                46
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                531,
+                371,
+                44,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                821,
+                350,
+                44,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                322,
+                94,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                898,
+                314,
+                65,
+                62
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                650,
+                285,
+                17,
+                43
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                195,
+                277,
+                35,
+                66
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                341,
+                276,
+                143,
+                84
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1019,
+                149,
+                30,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                963,
+                68,
+                12,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1227,
+                0,
+                53,
+                7
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1063,
+                0,
+                75,
+                111
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_06-37-_jpg.rf.064f7423dd1208aa3250c13611aae95e": [
+        {
+            "bbox": [
+                564,
+                794,
+                13,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                986,
+                684,
+                55,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1078,
+                652,
+                143,
+                135
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                878,
+                402,
+                28,
+                12
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                496,
+                401,
+                52,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                234,
+                243,
+                166
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                928,
+                198,
+                91,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1155,
+                184,
+                47,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                532,
+                141,
+                41,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1011,
+                74,
+                18,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                848,
+                0,
+                43,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                545,
+                0,
+                73,
+                37
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_06-38-_jpg.rf.16ba6631d2666999404b32ff497e4b5c": [
+        {
+            "bbox": [
+                617,
+                1008,
+                36,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                414,
+                854,
+                73,
+                94
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                198,
+                783,
+                41,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                866,
+                686,
+                31,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                679,
+                62,
+                59
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                130,
+                677,
+                19,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                924,
+                660,
+                27,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                356,
+                625,
+                42,
+                56
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                489,
+                439,
+                71,
+                181
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                687,
+                384,
+                32,
+                55
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                501,
+                321,
+                105,
+                68
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                369,
+                266,
+                79,
+                78
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                193,
+                147,
+                15,
+                19
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                613,
+                130,
+                51,
+                70
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                437,
+                106,
+                25,
+                62
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1232,
+                0,
+                48,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                745,
+                0,
+                52,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                625,
+                0,
+                35,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                510,
+                0,
+                71,
+                66
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_06-4-_jpg.rf.da6479face781101910a0b56743806be": [
+        {
+            "bbox": [
+                864,
+                966,
+                32,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                87,
+                859,
+                62,
+                67
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                697,
+                761,
+                130,
+                75
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                872,
+                643,
+                88,
+                89
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                237,
+                597,
+                180,
+                76
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                842,
+                540,
+                48,
+                55
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                532,
+                66,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                424,
+                460,
+                32,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1194,
+                407,
+                45,
+                73
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                255,
+                267,
+                157,
+                166
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                684,
+                251,
+                50,
+                63
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1135,
+                217,
+                19,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                624,
+                151,
+                17,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_08-1-_jpg.rf.aa1e395c4a16c0d91b9535e45eae077f": [
+        {
+            "bbox": [
+                1136,
+                911,
+                32,
+                12
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                109,
+                697,
+                83,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                674,
+                36,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1172,
+                0,
+                108,
+                70
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1112,
+                0,
+                35,
+                8
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                204,
+                0,
+                319,
+                268
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                45,
+                149
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_22-21-_jpg.rf.0680cc9536d44aad239eb479ea74103c": [
+        {
+            "bbox": [
+                474,
+                994,
+                30,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                756,
+                18,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1125,
+                570,
+                155,
+                191
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                737,
+                479,
+                108,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_22-23-_jpg.rf.c1b1555f71236a272c4654042af238a9": [
+        {
+            "bbox": [
+                506,
+                1002,
+                25,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                470,
+                877,
+                98,
+                90
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                630,
+                681,
+                18,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                811,
+                613,
+                56,
+                98
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                340,
+                439,
+                42,
+                63
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                585,
+                394,
+                88,
+                92
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                869,
+                366,
+                90,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                182,
+                246,
+                29,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                188,
+                16,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                885,
+                185,
+                126,
+                76
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1100,
+                182,
+                60,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                514,
+                168,
+                44,
+                31
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                786,
+                150,
+                70,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                82,
+                0,
+                28,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_22-24-_jpg.rf.3b568217e076be019a36a0fb175c686c": [
+        {
+            "bbox": [
+                118,
+                985,
+                124,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                909,
+                78,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                724,
+                895,
+                77,
+                69
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                712,
+                39,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                148,
+                547,
+                39,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                466,
+                408,
+                38,
+                82
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                966,
+                385,
+                24,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                983,
+                220,
+                32,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                668,
+                204,
+                14,
+                37
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                241,
+                143,
+                80,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                73,
+                35,
+                55
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                984,
+                70,
+                64,
+                70
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "20_3_jpg.rf.5ca2aa2d0965c61239b8d05aff141386": [
+        {
+            "bbox": [
+                545,
+                274,
+                95,
+                175
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                282,
+                0,
+                79,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "20_4_jpg.rf.868b7c179c01a13ee6a9af6c3c2ebdeb": [
+        {
+            "bbox": [
+                34,
+                316,
+                39,
+                49
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                156,
+                129,
+                53,
+                68
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "23_3_jpg.rf.f65757b2978fb3cefb4a4985eaa00179": [
+        {
+            "bbox": [
+                412,
+                473,
+                24,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                139,
+                157,
+                223
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                474,
+                0,
+                166,
+                352
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "24_1_jpg.rf.2a3ce3ec073d78c3e7ca6578943a3aa9": [
+        {
+            "bbox": [
+                422,
+                497,
+                48,
+                15
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                138,
+                382,
+                26,
+                48
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                408,
+                224,
+                147,
+                139
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                248,
+                158,
+                37,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                581,
+                78,
+                59,
+                101
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                472,
+                60,
+                28,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "24_2_jpg.rf.7ade45998ffea29f87930256384428f0": [
+        {
+            "bbox": [
+                225,
+                478,
+                84,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                512,
+                434,
+                69,
+                78
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                181,
+                318,
+                54,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                244,
+                78,
+                68
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                258,
+                186,
+                77,
+                65
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                572,
+                107,
+                68,
+                90
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                199,
+                0,
+                334,
+                268
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                105,
+                67
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "24_2_jpg.rf.95be1f9b5051b32957b2f5dcbe6145e8": [
+        {
+            "bbox": [
+                70,
+                298,
+                44,
+                84
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                175,
+                98,
+                58
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "24_3_jpg.rf.99b3032e7b098629e8e27e18d11f10f2": [
+        {
+            "bbox": [
+                442,
+                501,
+                30,
+                11
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                198,
+                460,
+                102,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                332,
+                22,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                610,
+                321,
+                30,
+                191
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                310,
+                278,
+                70,
+                75
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                92,
+                268,
+                142,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                409,
+                225,
+                37,
+                31
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                550,
+                140,
+                90,
+                136
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                94,
+                42,
+                91
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                141,
+                20,
+                139,
+                151
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                394,
+                0,
+                115,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "25_2_jpg.rf.b72af00ca14a88f56fbfd1b50da491a1": [
+        {
+            "bbox": [
+                0,
+                142,
+                363,
+                196
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                563,
+                0,
+                77,
+                49
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "26_3_jpg.rf.230fdb92560c0566017d2747d61d85bf": [
+        {
+            "bbox": [
+                260,
+                337,
+                32,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                580,
+                186,
+                60,
+                103
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                367,
+                104,
+                26,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                436,
+                73,
+                31,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                523,
+                19,
+                31,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                224,
+                0,
+                80,
+                94
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "26_4_jpg.rf.757b7039c4aca0392906025faaf524f6": [
+        {
+            "bbox": [
+                0,
+                291,
+                17,
+                65
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                69,
+                22,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                143,
+                39,
+                153,
+                59
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "28_1_jpg.rf.7f2a604cbb9c6fe6263a1e8d6c1fcd94": [
+        {
+            "bbox": [
+                113,
+                146,
+                53,
+                29
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                154,
+                91,
+                51,
+                14
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                67,
+                87,
+                31,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                327,
+                46,
+                68,
+                135
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                548,
+                0,
+                36,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "28_2_jpg.rf.0100ee434604081f2af0fa949daaa7c9": [
+        {
+            "bbox": [
+                0,
+                418,
+                28,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                11,
+                38,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "28_3_jpg.rf.98fbc933608c52a245d45dc91d63cae9": [
+        {
+            "bbox": [
+                0,
+                259,
+                83,
+                68
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                348,
+                156,
+                62,
+                119
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                249,
+                83,
+                18,
+                37
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                483,
+                0,
+                24,
+                28
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "28_4_jpg.rf.7eeddeac3a9d2bb152c1b90c68722938": [
+        {
+            "bbox": [
+                0,
+                383,
+                126,
+                129
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "29_4_jpg.rf.7999ab2de651c77f963ce08960b8a464": [
+        {
+            "bbox": [
+                0,
+                454,
+                114,
+                58
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                546,
+                338,
+                94,
+                85
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                388,
+                283,
+                26,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                236,
+                140,
+                67
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                154,
+                0,
+                258,
+                170
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "2_06_00-11-_jpg.rf.253397d8842fc2c82e96fd041861e9c6": [
+        {
+            "bbox": [
+                0,
+                930,
+                79,
+                77
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                514,
+                849,
+                42,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                210,
+                808,
+                81,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                645,
+                779,
+                26,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                762,
+                177,
+                168
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                569,
+                28,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                124,
+                540,
+                95,
+                140
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                229,
+                451,
+                36,
+                43
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                70,
+                337,
+                42,
+                9
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                274,
+                300,
+                52,
+                75
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                284,
+                14,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "11_1_jpg.rf.6d62d45ffe0decd5483c40ae58cbb24d": [
+        {
+            "bbox": [
+                0,
+                130,
+                268,
+                205
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                408,
+                116,
+                232,
+                396
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                602,
+                0,
+                38,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "11_3_jpg.rf.449adc22ccdf26ad94b98e004d1be7f3": [
+        {
+            "bbox": [
+                152,
+                182,
+                266,
+                330
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                129,
+                42,
+                104
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "16_1_jpg.rf.1a7bd56ac1473510d3016f1a102879d7": [
+        {
+            "bbox": [
+                0,
+                487,
+                153,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                243,
+                22,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                500,
+                47,
+                140,
+                153
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "16_1_jpg.rf.c7bbcb931ed3ff67a07ca176de5063d5": [
+        {
+            "bbox": [
+                520,
+                459,
+                120,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                595,
+                171,
+                45,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                532,
+                0,
+                17,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                39,
+                0,
+                298,
+                416
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "18_2_jpg.rf.9da0ae887c5930a714093651e5f97bd8": [
+        {
+            "bbox": [
+                63,
+                362,
+                13,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                155,
+                50,
+                48,
+                49
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                129,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "19_1_jpg.rf.39fe9dfd8486dbe294a5aedcebbdb595": [
+        {
+            "bbox": [
+                590,
+                0,
+                50,
+                70
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                171,
+                512
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "19_2_jpg.rf.7d77be72791d63ca7ef5b144664a319b": [
+        {
+            "bbox": [
+                32,
+                55,
+                64,
+                98
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "19_3_jpg.rf.cf790650c6931e5336278eb745c00214": [
+        {
+            "bbox": [
+                33,
+                390,
+                99,
+                122
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                554,
+                291,
+                86,
+                122
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                630,
+                204,
+                10,
+                69
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                368,
+                166,
+                71,
+                60
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                518,
+                152,
+                19,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                383,
+                0,
+                72,
+                98
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_08-21-_jpg.rf.de44b8925d75a943f7b761dd4cafddd7": [
+        {
+            "bbox": [
+                432,
+                990,
+                39,
+                34
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                839,
+                88,
+                185
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                712,
+                812,
+                221,
+                103
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                588,
+                803,
+                86,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1043,
+                756,
+                67,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                671,
+                708,
+                31,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                127,
+                678,
+                91,
+                168
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1063,
+                550,
+                24,
+                19
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1131,
+                490,
+                41,
+                50
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                480,
+                424,
+                109,
+                113
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                959,
+                417,
+                75,
+                112
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                755,
+                386,
+                84,
+                99
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                780,
+                297,
+                24,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                281,
+                22,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                234,
+                271,
+                58,
+                104
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                776,
+                108,
+                54,
+                57
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                523,
+                70,
+                152,
+                155
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "1_06_08-25-_jpg.rf.feda59514e2aabad838bc77332fccbf0": [
+        {
+            "bbox": [
+                297,
+                941,
+                49,
+                83
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                918,
+                728,
+                16,
+                26
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                640,
+                654,
+                61,
+                83
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                801,
+                462,
+                38,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                39,
+                460,
+                50,
+                25
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                115,
+                224,
+                61,
+                73
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                96,
+                35,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                541,
+                0,
+                226,
+                240
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                575,
+                0,
+                40,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_08-3-_jpg.rf.7de90494b7d33d968901c51cd4e1e4c9": [
+        {
+            "bbox": [
+                589,
+                975,
+                104,
+                49
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1262,
+                513,
+                18,
+                68
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                600,
+                497,
+                196,
+                319
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                744,
+                387,
+                23,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                162,
+                75,
+                57
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_10-14-_jpg.rf.0eadc1dc4c58d13a048bf2d82fc43034": [
+        {
+            "bbox": [
+                693,
+                938,
+                587,
+                86
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1109,
+                0,
+                171,
+                129
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                58,
+                62
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_10-15-_jpg.rf.e6910512e7416bd43ca70dc01ba21102": [
+        {
+            "bbox": [
+                0,
+                981,
+                21,
+                43
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1265,
+                980,
+                15,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1081,
+                906,
+                150,
+                118
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1276,
+                717,
+                4,
+                117
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1162,
+                692,
+                15,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                305,
+                684,
+                39,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                76,
+                651,
+                82,
+                94
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1068,
+                638,
+                51,
+                48
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                522,
+                21,
+                65
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                193,
+                434,
+                19,
+                19
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                166,
+                44,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                144,
+                113,
+                96,
+                102
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                616,
+                0,
+                100,
+                48
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                568,
+                0,
+                30,
+                19
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "1_06_12-13-_jpg.rf.fa06c18252a2e78bc2a1f457596af364": [
+        {
+            "bbox": [
+                0,
+                0,
+                150,
+                115
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "2_06_08-15-_jpg.rf.4226c1c40917b357279c233b3b930797": [
+        {
+            "bbox": [
+                0,
+                524,
+                95,
+                500
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1196,
+                248,
+                84,
+                339
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_08-29-_jpg.rf.453e3bf82a0015361ef8fd99dae1d067": [
+        {
+            "bbox": [
+                401,
+                902,
+                101,
+                75
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                507,
+                848,
+                62,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                750,
+                82,
+                82
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                283,
+                735,
+                21,
+                44
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                156,
+                718,
+                76,
+                75
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1065,
+                224,
+                45,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                765,
+                182,
+                55,
+                48
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                323,
+                152,
+                63,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                29,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_08-32-_jpg.rf.52583f8935b24ca50e9db6212240a7ec": [
+        {
+            "bbox": [
+                458,
+                709,
+                93,
+                69
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                890,
+                669,
+                21,
+                12
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                258,
+                651,
+                72,
+                72
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                969,
+                639,
+                53,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                167,
+                34,
+                52
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                140,
+                128,
+                16,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                183,
+                89,
+                13,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_08-37-_jpg.rf.566a59af9746c8e34175921a17c8ab85": [
+        {
+            "bbox": [
+                0,
+                812,
+                138,
+                105
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                808,
+                565,
+                32,
+                22
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                196,
+                351,
+                33,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_08-7-_jpg.rf.7761b17dc4ca89b7e47d34db2034ab43": [
+        {
+            "bbox": [
+                524,
+                989,
+                67,
+                35
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                861,
+                864,
+                48,
+                88
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1249,
+                845,
+                31,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                227,
+                746,
+                174,
+                106
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                60,
+                738,
+                107,
+                86
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                673,
+                722,
+                177,
+                261
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1043,
+                641,
+                20,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                253,
+                638,
+                29,
+                31
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1212,
+                558,
+                68,
+                80
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1092,
+                539,
+                84,
+                73
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                441,
+                534,
+                30,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                900,
+                501,
+                89,
+                66
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                716,
+                215,
+                19,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                114,
+                198,
+                44,
+                32
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                566,
+                41,
+                122,
+                126
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                990,
+                24,
+                46,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "2_06_08-8-_jpg.rf.78d9f7fe069f4c0e540e400e548706a8": [
+        {
+            "bbox": [
+                1006,
+                1007,
+                25,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                951,
+                82,
+                73
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                944,
+                756,
+                93,
+                141
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1241,
+                700,
+                39,
+                48
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                596,
+                23,
+                19
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                257,
+                325,
+                28,
+                120
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                1221,
+                230,
+                59,
+                309
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                288,
+                0,
+                782,
+                508
+            ],
+            "class": "None",
+            "confidence": 0.6561199235695095
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                237,
+                149
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        }
+    ],
+    "2_4_jpg.rf.0752f36804edd5cdf21e56c7ab6b1164": [
+        {
+            "bbox": [
+                0,
+                354,
+                30,
+                21
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                288,
+                50,
+                47
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                267,
+                21,
+                12
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                64,
+                257,
+                28,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                139,
+                21,
+                51
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                116,
+                81,
+                47,
+                65
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                31,
+                53,
+                79
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "31_1_jpg.rf.663ea8f720c0a909d8536aa46c8340b2": [
+        {
+            "bbox": [
+                612,
+                341,
+                28,
+                171
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                217,
+                90,
+                75,
+                56
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                83,
+                75
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "31_4_jpg.rf.c9728c4055248736f8c2114d5561b2e3": [
+        {
+            "bbox": [
+                165,
+                444,
+                36,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                99,
+                382,
+                40,
+                46
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                196,
+                340,
+                26,
+                18
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                11,
+                210,
+                42,
+                28
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                179,
+                179,
+                24,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                100,
+                161,
+                25,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                21,
+                81,
+                20,
+                16
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                55,
+                34,
+                34,
+                40
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                113,
+                25,
+                57,
+                116
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                20,
+                0,
+                23,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "33_3_jpg.rf.fdb46a68413cb737a5c0851d438aea5f": [
+        {
+            "bbox": [
+                431,
+                492,
+                36,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                521,
+                183,
+                39,
+                17
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                55,
+                59
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "34_3_jpg.rf.41a2199af618f731ab132af87a854a83": [
+        {
+            "bbox": [
+                162,
+                373,
+                478,
+                139
+            ],
+            "class": "Curvularia",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                485,
+                267,
+                39,
+                42
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                285,
+                0,
+                54,
+                28
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                23,
+                63
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "35_4_jpg.rf.57f6a6a9ca77adf40139024e6722bf16": [
+        {
+            "bbox": [
+                396,
+                406,
+                79,
+                106
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                228,
+                0,
+                412,
+                70
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                0,
+                38,
+                54
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "36_1_jpg.rf.7a542293dd486cb5f01c43b89b4ab29e": [
+        {
+            "bbox": [
+                58,
+                473,
+                113,
+                39
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "37_2_jpg.rf.af6ca30df96d63e2dc7c6e6b558e7d7e": [
+        {
+            "bbox": [
+                574,
+                485,
+                66,
+                27
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                411,
+                424,
+                43,
+                48
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                415,
+                59,
+                97
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                144,
+                410,
+                37,
+                53
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                596,
+                405,
+                44,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                250,
+                289,
+                37,
+                58
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                130,
+                287,
+                64,
+                69
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                204,
+                258,
+                36,
+                24
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                446,
+                217,
+                43,
+                38
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                54,
+                200,
+                55,
+                36
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                221,
+                197,
+                23,
+                20
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                175,
+                116,
+                22,
+                43
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ],
+    "38_1_jpg.rf.1c0f8f065132b736cd5a470f08a714f7": [
+        {
+            "bbox": [
+                394,
+                454,
+                74,
+                58
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                142,
+                388,
+                92,
+                91
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                39,
+                347,
+                11,
+                37
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                153,
+                257,
+                29,
+                30
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                0,
+                201,
+                31,
+                41
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                616,
+                0,
+                24,
+                33
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        },
+        {
+            "bbox": [
+                514,
+                0,
+                20,
+                23
+            ],
+            "class": "Cladosporium",
+            "confidence": 1
+        }
+    ]
+}
