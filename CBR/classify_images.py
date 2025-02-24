@@ -1,3 +1,5 @@
+import pickle
+import numpy as np
 from typing import Counter
 from calculate_similarity import compare_cases
 from database_utils import update_database
@@ -84,3 +86,127 @@ def active_learning_prompt(system_recommendation, top_matches):
             "Clase no válida. Las clases existentes son:",
             {cls for cls, _ in top_matches},
         )
+
+
+def find_similar_cases_svm(new_case, image_name, database, thresholds, top_n=5):
+    """Clasifica un nuevo caso utilizando un modelo SVM (con kernel RBF) para medir similitud entre casos."""
+    # Cargar el modelo SVM preentrenado (se debe entrenar con probability=True)
+    with open("similarity_svm.pkl", "rb") as f:
+        model = pickle.load(f)
+
+    similarities = []
+    new_features = np.array(new_case["features"])
+    for espora_id, case in database.items():
+        case_features = np.array(case["features"])
+        diff_vector = np.abs(new_features - case_features)
+        proba = model.predict_proba(diff_vector.reshape(1, -1))[0, 1]
+        distance = 1 - proba
+        similarities.append((case["bounding_box"]["class"], distance))
+
+    similarities.sort(key=lambda x: x[1])
+    top_matches = similarities[:top_n]
+    if not top_matches:
+        return {"status": "review", "class": None, "top_matches": []}
+
+    min_distance = top_matches[0][1]
+    low_threshold, high_threshold = thresholds
+    if min_distance <= low_threshold:
+        most_common = Counter([cls for cls, _ in top_matches]).most_common(1)[0][0]
+        update_database(database, image_name, new_case, most_common)
+        return {
+            "status": "high_confidence",
+            "class": most_common,
+            "confidence": "auto",
+            "top_matches": top_matches,
+        }
+    elif min_distance <= high_threshold:
+        secondary_class = find_similar_cases(
+            new_case, image_name, database, thresholds, top_n * 2
+        )
+        return {
+            "status": "uncertainty",
+            "class": secondary_class,
+            "confidence": "secondary",
+            "top_matches": top_matches,
+        }
+    else:
+        system_recommendation = Counter([cls for cls, _ in top_matches]).most_common(1)[
+            0
+        ][0]
+        user_class = active_learning_prompt(system_recommendation, top_matches)
+        if user_class is None:
+            return {
+                "status": "review",
+                "class": None,
+                "confidence": "manual",
+                "top_matches": top_matches,
+            }
+        else:
+            return {
+                "status": "high_confidence",
+                "class": user_class,
+                "confidence": "manual",
+                "top_matches": top_matches,
+            }
+
+
+def find_similar_cases_rf(new_case, image_name, database, thresholds, top_n=5):
+    """Clasifica un nuevo caso utilizando un modelo Random Forest para medir similitud entre casos."""
+    # Cargar el modelo Random Forest preentrenado
+    with open("similarity_rf.pkl", "rb") as f:
+        model = pickle.load(f)
+
+    similarities = []
+    new_features = np.array(new_case["features"])
+    for espora_id, case in database.items():
+        case_features = np.array(case["features"])
+        diff_vector = np.abs(new_features - case_features)
+        proba = model.predict_proba(diff_vector.reshape(1, -1))[0, 1]
+        distance = 1 - proba
+        similarities.append((case["bounding_box"]["class"], distance))
+
+    similarities.sort(key=lambda x: x[1])
+    top_matches = similarities[:top_n]
+    if not top_matches:
+        return {"status": "review", "class": None, "top_matches": []}
+
+    min_distance = top_matches[0][1]
+    low_threshold, high_threshold = thresholds
+    if min_distance <= low_threshold:
+        most_common = Counter([cls for cls, _ in top_matches]).most_common(1)[0][0]
+        update_database(database, image_name, new_case, most_common)
+        return {
+            "status": "high_confidence",
+            "class": most_common,
+            "confidence": "auto",
+            "top_matches": top_matches,
+        }
+    elif min_distance <= high_threshold:
+        secondary_class = find_similar_cases(
+            new_case, image_name, database, thresholds, top_n * 2
+        )
+        return {
+            "status": "uncertainty",
+            "class": secondary_class,
+            "confidence": "secondary",
+            "top_matches": top_matches,
+        }
+    else:
+        system_recommendation = Counter([cls for cls, _ in top_matches]).most_common(1)[
+            0
+        ][0]
+        user_class = active_learning_prompt(system_recommendation, top_matches)
+        if user_class is None:
+            return {
+                "status": "review",
+                "class": None,
+                "confidence": "manual",
+                "top_matches": top_matches,
+            }
+        else:
+            return {
+                "status": "high_confidence",
+                "class": user_class,
+                "confidence": "manual",
+                "top_matches": top_matches,
+            }
