@@ -57,7 +57,7 @@ def build_autoencoder(input_shape=(224, 224, 3), latent_dim=128):
     return autoencoder, encoder
 
 
-def get_autoencoder(x_train):
+def get_autoencoder(x_train, validation):
     # Construir el autoencoder
     autoencoder, encoder = build_autoencoder(input_shape=(224, 224, 3), latent_dim=128)
 
@@ -65,6 +65,6 @@ def get_autoencoder(x_train):
     autoencoder.compile(optimizer="adam", loss="mse")
 
     # Entrenar el autoencoder
-    autoencoder.fit(x_train, x_train, epochs=50, batch_size=32, validation_split=0.1)
+    autoencoder.fit(x_train, x_train, epochs=50, batch_size=32, validation_data=validation)
 
     return autoencoder
