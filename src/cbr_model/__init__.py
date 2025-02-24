@@ -53,18 +53,20 @@ class CaseBasedReasoning:
                     (features, labels.get(class_id, default_label))
                 )
 
-    def predict(self, images: List[str]) -> List[str]:
+    def predict(self, images: List[str]) -> List[List[Tuple[Any, str]]]:
         predictions = []
 
+        n = len(images)
         for image_dir in images:
-            print(image_dir)
+            print(f"Processing {image_dir}, {n} left.")
+            n -= 1
             image = cv2.imread(image_dir)  # type: ignore
             boxes = self.segment_image(image)
 
             if not boxes:
                 continue
 
-            image_predictions = []
+            image_predictions: List[Tuple[Any, str]] = []
 
             crops = [self._crop_image(image, box) for box in boxes]
 
@@ -82,7 +84,6 @@ class CaseBasedReasoning:
                     image_predictions.append((box, predicted))
 
             predictions.append(image_predictions)
-            print(image_predictions)
 
         return predictions
 
