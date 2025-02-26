@@ -53,3 +53,15 @@ def imagenetCNN_euclideanDistance_sift_lbp_random_forest() -> CaseBasedReasoning
     cbr.knowledge_manager = random_forest_manager
 
     return cbr
+
+
+def autoencoder_euclideanDistance_random_forest(encoder) -> CaseBasedReasoning:
+    cbr = CaseBasedReasoning()
+
+    cbr.feature_extractor = lambda image: autoencoder_image_to_vector(
+        resize_and_pad_image(image), encoder
+    )
+
+    cbr.knowledge_manager = random_forest_manager
+
+    return cbr
